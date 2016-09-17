@@ -1,0 +1,76 @@
+/*** Base CSS */
+body {
+   font-size: 62.5%;
+   margin: 0;
+   padding: 0;
+   line-height: 1.5;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: #444;
+}
+/* Fixes */
+img,picture,video,embed {max-width: 100%;}
+.clearfix:before,
+.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+
+*, *:before, *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+h2{
+  padding:0; margin:0;
+}
+.container {
+   max-width: 1128px;
+   margin: 0 auto;
+}
+/*** End Base CSS */
+
+/*TOP*/
+
+#top{
+
+}
+.menu-primary{
+  background: #00b300;
+  height: 5.2em;
+  margin: 0;
+  padding: 0;
+}
+.menu-primary h2{
+  text-align: center;
+  padding-top:0.1em;
+  color: #fff;
+  font-size: 3em;
+}
+
+.menu-secundary{
+  background: #00b300;
+  height: 5.2em;
+  border-top: 0.2em solid #33c233;
+}
+.menu-secundary ul{
+  margin-top:-5px;
+}
+.menu-secundary li{
+  text-align:center;
+  float:left;
+  margin-left: 9em;
+  display: inline;
+  color: #fff;
+  font-size: 1em;
+  padding: 6px 0 0 0px;
+
+}
+.menu-secundary li:hover{
+
+  padding: 90px 0 90px 0px;
+
+  border-top: 2px solid red;
+}
+.nav ul {
+    font-size: 15px;
+    text-align:center;
+}
